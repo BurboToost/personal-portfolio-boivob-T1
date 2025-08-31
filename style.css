@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+header {
+  background: #2e7d32;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+header h2 {
+  margin: 0;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.btn {
+  background: white;
+  color: #2e7d32;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.section img {
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.intro h1 {
+  color: #2e7d32;
+}
+.skills {
+  text-align: center;
+}
+.skills h2 {
+  color: #2e7d32;
+}
+.skill-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.skill {
+  background: #2e7d32;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  min-width: 80px;
+  text-align: center;
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.contact-form {
+  max-width: 300px;
+  margin-right: 40px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.contact-form button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
